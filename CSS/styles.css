@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+.container {
+    position: absolute;
+    height: 33vh;
+    width: 33vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(85, 230, 97);
+    border: 10px solid white;
+}
+
+.title {
+    height: 40%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: royalblue;
+}
+
+.body {
+    height: 60%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: mediumseagreen;
+    gap: 1rem;
+}
+
+button {
+    height: 36px;
+    width: 50px;
+}
